@@ -1,0 +1,67 @@
+<link rel="stylesheet" href="../css/index.css"/>
+<script type="text/javascript" src="../js/jquery1.42.min.js"></script>
+<script>
+
+function show_psd()
+{
+	
+var val=$("#psd").val();
+
+if(val=="")
+{
+	alert("请输入登录密码！");
+	return false;
+}
+alert(val);
+	
+}
+
+function check_form()
+{
+	var user_name=$("#username").val();
+	var psd=$("#psd").val();
+	if(user_name=="")
+{
+	alert("请输入用户名！");
+	$("#username").focus();
+	return false;
+}
+if(psd=="")
+{
+	alert("请输入登录密码！");
+	$("#psd").focus();
+	return false;
+}
+}
+
+</script>
+
+ <div class="login_con">
+              
+              <form action="../action/login_action.php" method="post" onSubmit="return check_form();">
+              <table>
+              
+              <tr>
+                  <td align="right">用户名:</td>
+                  <td align="left"><input type="text" name="user_name" id="username" placeholder="请输入用户名！"/></td>
+              
+              </tr>
+              
+                 <tr>
+                  <td  align="right">密码:</td>
+                  <td align="left"><input type="password" name="password" id="psd" placeholder="请输入密码！" /><span><a href="javascript:show_psd()">(显示当前的密码)</a></span></td>
+              
+              </tr> 
+              
+             <tr>
+             
+              <td  align="center" colspan="2"><input type="submit" value="登录"/></td>
+              
+             </tr>
+             
+              
+             </table> 
+              
+              
+              </form>
+ </div>              

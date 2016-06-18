@@ -1,0 +1,2811 @@
+[ 2016-06-06T01:35:11+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comment`
+ERR: 1146:Table 'test.comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comment`
+
+[ 2016-06-06T01:35:22+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comment`
+ERR: 1146:Table 'test.comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comment`
+
+[ 2016-06-06T01:37:36+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:37:48+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:38:05+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:39:27+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-06T01:40:40+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:40:44+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','aaa','游客','/Public/images/default.jpg','2016-06-06 01:40:43') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:40:57+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('148','大哥你好吗','游客','/Public/images/default.jpg','2016-06-06 01:40:56') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-06T01:41:02+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('149','不好','游客','/Public/images/default.jpg','2016-06-06 01:41:01') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-06T01:41:14+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','吃什么','游客','/Public/images/default.jpg','2016-06-06 01:41:13') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:41:22+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('151','吃你妹','游客','/Public/images/default.jpg','2016-06-06 01:41:21') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:41:28+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('152','再说','游客','/Public/images/default.jpg','2016-06-06 01:41:27') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:43:37+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '151' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '152' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '153' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '148' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '149' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '150' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-06-06T01:43:51+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','haha','游客','/Public/images/default.jpg','2016-06-06 01:43:50') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:43:59+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','你妹','游客','/Public/images/default.jpg','2016-06-06 01:43:58') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T01:44:35+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '155' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '154' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '151' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '152' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '153' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '148' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '149' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '150' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-06T01:44:54+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '155' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '154' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '151' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '152' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '153' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '148' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '149' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '150' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:45:04+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('155','就哈哈','游客','/Public/images/default.jpg','2016-06-06 01:45:03') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:45:27+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '155' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '156' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '154' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '151' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '152' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '153' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '148' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '149' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '150' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:45:39+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('155','你妹','游客','/Public/images/default.jpg','2016-06-06 01:45:38') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:45:46+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','哈哈','游客','/Public/images/default.jpg','2016-06-06 01:45:45') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-06T01:48:51+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '158' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '155' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '157' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '156' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '154' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '151' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '152' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '153' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '148' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '149' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '150' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:48:56+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','哈哈','楼主','/Public/images/default.jpg','2016-06-06 01:48:55') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:49:08+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:49:14+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','哈哈','楼主','/Public/images/default.jpg','2016-06-06 01:49:13') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T01:49:20+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('160','你妹','游客','/Public/images/default.jpg','2016-06-06 01:49:19') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-06T01:49:36+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('161','你妹！!^_^','游客','/Public/images/default.jpg','2016-06-06 01:49:35') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-06T01:49:48+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','吃什么去？','楼主','/Public/images/default.jpg','2016-06-06 01:49:47') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:50:20+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('163','东城火锅挺不错','游客','/Public/images/default.jpg','2016-06-06 01:50:19') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T01:50:27+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('164','味道一般','游客','/Public/images/default.jpg','2016-06-06 01:50:26') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:50:42+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('163','大盘鸡怎么样','游客','/Public/images/default.jpg','2016-06-06 01:50:41') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:51:03+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','有木有人帮我做个网站','楼主','/Public/images/default.jpg','2016-06-06 01:51:02') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:51:43+08:00 ] ::1 /blog/common.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('167','凡事靠自己，还是自己做吧','游客','/Public/images/default.jpg','2016-06-06 01:51:42') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:53:18+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:54:01+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T01:54:03+08:00 ] ::1 /blog/common.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\common\Runtime\Cache\Home\d6c9294a9338871dce120e32f08ca983.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-06T02:01:50+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T02:03:50+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-06T02:03:53+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T02:03:55+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T02:06:18+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T10:48:50+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0360s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2016-06-06T11:01:06+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T11:01:10+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-06-06T11:01:25+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-06T11:05:10+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:05:28+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-06T11:05:38+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:05:43+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:06:04+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:06:18+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T11:06:46+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-06T11:07:24+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:08:18+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:08:21+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','qqq','楼主','http://localhost/blog/Public/images/default.jpg','2016-06-06 11:08:20') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T11:08:26+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('169','aaa','游客','http://localhost/blog/Public/images/default.jpg','2016-06-06 11:08:25') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-06-06T11:08:35+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('169','aaa','游客','http://localhost/blog/Public/images/default.jpg','2016-06-06 11:08:34') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T11:09:33+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:09:59+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:10:04+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','aaa','楼主','http://localhost/blog/Public/images/default.jpg','2016-06-06 11:10:03') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:10:31+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T11:10:47+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T14:41:36+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T14:42:10+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-06-06T15:07:04+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:07:08+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','aaa','楼主','http://localhost/blog/Public/images/default.jpg','2016-06-06 15:07:07') [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-06T15:09:40+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:09:55+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('173','aaa','游客','http://localhost/blog/Public/images/default.jpg','2016-06-06 15:09:54') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:21:58+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:22:46+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:22:48+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:22:58+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:23:11+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-06T15:25:44+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:35:59+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:37:12+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:39:30+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-06T15:39:52+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:39:58+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:40:13+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:40:41+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:42:49+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:43:57+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-06-06T15:45:35+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:45:57+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:46:12+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:46:33+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:46:44+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-06T15:47:24+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:47:37+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined index: s_username E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 23 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:48:06+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-06T15:50:19+08:00 ] ::1 /blog/comment.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '0' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '173' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '174' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '172' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '169' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '171' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '170' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '167' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '168' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '163' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '166' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '164' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '165' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '160' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '161' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comment` WHERE ( parent_id = '162' ) ORDER BY create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: web_name E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 5 行.
+NOTIC: [8] Undefined variable: commentlist E:\WWW\blog\comment\Runtime\Cache\Home\bcdae3f0da7c9c498d360922f1f8c762.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:50:33+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('0','aaa','楼主','http://localhost/blog/Public/images/default.jpg','2016-06-06 15:50:32') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-06T15:50:37+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('175','aaa','游客','http://localhost/blog/Public/images/default.jpg','2016-06-06 15:50:36') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:50:40+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('176','aaa','游客','http://localhost/blog/Public/images/default.jpg','2016-06-06 15:50:39') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:50:57+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0120s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('176','aaa','游客','http://localhost/blog/Public/images/default.jpg','2016-06-06 15:50:56') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-06T15:51:06+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('173','aaa','游客','http://localhost/blog/Public/images/default.jpg','2016-06-06 15:51:05') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-06T15:51:10+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('179','aaa','游客','http://localhost/blog/Public/images/default.jpg','2016-06-06 15:51:09') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-06T15:51:14+08:00 ] ::1 /blog/comment.php/home/index/addComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `comment` (`parent_id`,`content`,`nickname`,`head_pic`,`create_time`) VALUES ('174','aaa','游客','http://localhost/blog/Public/images/default.jpg','2016-06-06 15:51:13') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
